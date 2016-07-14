@@ -2,9 +2,9 @@
 class Mailer
 {
 	private $_recipients;
-	public function addRecipient($email)
+	public function addRecipient($email,$name)
 	{
-		$recipient = new Addressbook($email);
+		$recipient = new Addressbook($email,$name);
 		$this->_recipients[] = $recipient;
 	}
 	

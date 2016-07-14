@@ -5,7 +5,7 @@ class Addressbook
 	private $_email;
 	private $_name;
 	
-	public function __construct($email, $name = null)
+	public function __construct($email, $name)
 	{
 		$this->_email = $email;
 		$this->_name = $name;
